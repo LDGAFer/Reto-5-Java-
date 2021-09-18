@@ -1,0 +1,18 @@
+Public void calcular(String x, string y) {
+         int x, y, suma, resta, multiplicación, división, módulo;
+                if (!x. isEmpty() && !y.isEmpty ()){
+                      x=Integer.parseInt(x);
+                      y=Integer.parseInt(y);
+                      suma=x+y;
+                      resta=x-y;
+                      multiplicaión=x*y;
+                      division=x/y;
+                      IblSuma.setText (String.valueOf(suma));
+                      IblResta.setText (String.valueOf(resta));
+                      IblMultiplicacion.setText (String.valueOf(multiplicacion));
+                      IblDivision.setText (String.valueOf(division));
+                     }else{
+                            JOptionPane.showMessageDialog (null, “Debe ingresar los números para “
+                            + “realizar las operaciones”, “Error en la operación”,JOptionPane.ERROR MESSAGE);
+                     }
+}
